@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "url" : "/users",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"name\":\"wonwoo\", \"email\":\"wonwoo@test.com\"}, {\"name\":\"foo\", \"email\":\"foo@test.com\"}]",
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  }
+}

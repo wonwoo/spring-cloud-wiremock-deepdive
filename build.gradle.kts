@@ -1,11 +1,11 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    id("org.springframework.boot") version "2.2.0.M5"
+    id("org.springframework.boot") version "2.2.0.RELEASE"
     id("io.spring.dependency-management") version "1.0.8.RELEASE"
-    kotlin("jvm") version "1.3.41"
-    kotlin("kapt") version "1.3.41"
-    kotlin("plugin.spring") version "1.3.41"
+    kotlin("jvm") version "1.3.50"
+    kotlin("kapt") version "1.3.50"
+    kotlin("plugin.spring") version "1.3.50"
 }
 
 group = "ml.wonwoo"
@@ -23,7 +23,7 @@ repositories {
     maven { url = uri("https://repo.spring.io/milestone") }
 }
 
-extra["springCloudVersion"] = "Hoxton.M2"
+extra["springCloudVersion"] = "Hoxton.RC1"
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-webflux")

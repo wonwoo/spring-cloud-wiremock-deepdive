@@ -35,7 +35,5 @@ class StubForTests(@Autowired private val userClient: UserClient) {
                 assertThat(it.email).isEqualTo("foo@test.com")
             }
             .verifyComplete()
-
-
     }
 }
